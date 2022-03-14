@@ -19,6 +19,7 @@ html {
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
     --grey-light: #E5EAF1;
+    --grey-medium: #EAECF2;
 
     font-size: 62.5%;
 }
@@ -52,7 +53,7 @@ body, button, input, textarea {
     border-width: 0;
 }
 
-/* inputs and buttons */
+/* INPUTS AND BUTTONS */
 input, button, .button {
     height: 5rem;
     border-radius: .8rem;
@@ -92,6 +93,20 @@ button.outlined,
     border: .2rem solid var(--blue);
 }
 
+button.red,
+.button.red {
+    background: var(--red);
+    color: var(--white);
+}
+
+.button.grey,
+.button.grey {
+    background: var(--grey-light);
+    color: var(--grey-dark);
+}
+
+/* HEADER */
+
 .content header {
     width: 80%;
     margin: 3.5rem auto;
@@ -100,4 +115,3 @@ button.outlined,
 .content header img {
     width: 16.7rem;
 }
-
