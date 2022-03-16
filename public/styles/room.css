@@ -14,6 +14,7 @@
 
 #room header .buttons {
     display: flex;
+    outline: none;
 }
 
 #room header .buttons .button:nth-child(1) {
