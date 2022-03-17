@@ -15,21 +15,24 @@
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/room.css">
     <link rel="stylesheet" href="styles/modal.css">
+
+    <!-- SCRIPT -->
+    <script src="scripts/main.js" defer type="module"></script>
 </head>
 <body>
     <div id="room" class="content">
         <header>
             <a href="#">
-                <img src="assets/logo.svg" alt="Rocket.Q Logo">
+                <img src="images/logo.svg" alt="Rocket.Q Logo">
             </a>
 
             <div class="buttons">
                 <div class="button outlined">
                     #323124
-                    <img src="assets/copy.svg" alt="Copiar número da sala">
+                    <img src="images/copy.svg" alt="Copiar número da sala">
                 </div>
                 <a href="#" class="button">
-                    <img src="assets/users-white.svg" alt="Criar uma sala">
+                    <img src="images/users-white.svg" alt="Criar uma sala">
                     Criar sala
                 </a>
             </div>
@@ -43,7 +46,7 @@
                 
                 <footer>
                     <div>
-                        <img src="assets/lock.svg" alt="Cadeado">
+                        <img src="images/lock.svg" alt="Cadeado">
                         Esta pergunta é anônima
                     </div>
                     <button>Enviar</button>
@@ -57,19 +60,19 @@
                 <div class="question-wrapper">
                     <div class="question-content">
                         <div class="user">
-                            <img src="assets/user.svg" alt="Usuário">
+                            <img src="images/user.svg" alt="Usuário">
                         </div>
                         <div class="question">
                             <p>O que é JavaScript?</p>
                         </div>
                     </div>
                     <div class="actions">
-                        <a href="#">
-                            <img src="assets/check.svg" alt="Marcar como lida">
+                        <a href="#" class="check">
+                            <img src="images/check.svg" alt="Marcar como lida">
                             Marcar como lida
                         </a>
-                        <a href="">
-                            <img src="assets/trash.svg" alt="Excluir pergunta">
+                        <a href="#" class="delete">
+                            <img src="images/trash.svg" alt="Excluir pergunta">
                             Excluir
                         </a>
                     </div>
@@ -78,19 +81,19 @@
                 <div class="question-wrapper">
                     <div class="question-content">
                         <div class="user">
-                            <img src="assets/user.svg" alt="Usuário">
+                            <img src="images/user.svg" alt="Usuário">
                         </div>
                         <div class="question">
                             <p>O que é TypeScript?</p>
                         </div>
                     </div>
                     <div class="actions">
-                        <a href="#">
-                            <img src="assets/check.svg" alt="Marcar como lida">
+                        <a href="#" class="check">
+                            <img src="images/check.svg" alt="Marcar como lida">
                             Marcar como lida
                         </a>
-                        <a href="">
-                            <img src="assets/trash.svg" alt="Excluir pergunta">
+                        <a href="#" class="delete">
+                            <img src="images/trash.svg" alt="Excluir pergunta">
                             Excluir
                         </a>
                     </div>
@@ -99,19 +102,19 @@
                 <div class="question-wrapper">
                     <div class="question-content">
                         <div class="user">
-                            <img src="assets/user.svg" alt="Usuário">
+                            <img src="images/user.svg" alt="Usuário">
                         </div>
                         <div class="question">
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit eos qui fugit cumque dolores, animi dignissimos doloribus voluptate! Voluptatum commodi possimus facilis reiciendis, inventore hic nostrum quaerat magni minima eaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus optio delectus adipisci ex rerum deserunt neque porro, corporis, nobis eaque nostrum asperiores quia officiis, labore natus exercitationem corrupti. Vel, beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ab optio totam veniam commodi minus molestias, reiciendis qui officia delectus facere iusto! Voluptatibus quod doloremque minus omnis delectus, possimus eligendi!</p>
                         </div>
                     </div>
                     <div class="actions">
-                        <a href="#">
-                            <img src="assets/check.svg" alt="Marcar como lida">
+                        <a href="#" class="check">
+                            <img src="images/check.svg" alt="Marcar como lida">
                             Marcar como lida
                         </a>
-                        <a href="">
-                            <img src="assets/trash.svg" alt="Excluir pergunta">
+                        <a href="#" class="delete">
+                            <img src="images/trash.svg" alt="Excluir pergunta">
                             Excluir
                         </a>
                     </div>
@@ -120,15 +123,15 @@
                 <div class="question-wrapper read">
                     <div class="question-content">
                         <div class="user">
-                            <img src="assets/user.svg" alt="Usuário">
+                            <img src="images/user.svg" alt="Usuário">
                         </div>
                         <div class="question">
                             <p>O que é callback em programação?</p>
                         </div>
                     </div>
                     <div class="actions">
-                        <a href="">
-                            <img src="assets/trash.svg" alt="Excluir pergunta">
+                        <a href="#" class="delete">
+                            <img src="images/trash.svg" alt="Excluir pergunta">
                             Excluir
                         </a>
                     </div>
@@ -148,7 +151,7 @@
                 <input type="password" id="password" name="password" placeholder="Informe sua senha">
 
                 <div class="buttons">
-                    <div class="button grey">Cancelar</div>
+                    <div class="button grey cancel">Cancelar</div>
                     <button class="red">Sim, excluir</button>
                 </div>
             </form>
