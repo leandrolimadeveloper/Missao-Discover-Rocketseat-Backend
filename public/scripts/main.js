@@ -38,4 +38,3 @@ function handleClick(event, check = true) {
     // Abrir modal
     modal.open()
 }
-
