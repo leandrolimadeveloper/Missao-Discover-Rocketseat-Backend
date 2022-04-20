@@ -27,7 +27,7 @@ A aplicação permite criar salas com perguntas anônimas, onde é possível o u
     <li><a href="https://www.ecma-international.org/publications-and-standards/standards/ecma-262/" alt="JavaScript">JavaScript</a></li>
     <li><a href="https://ejs.co/" alt="EJS">EJS</a></li>
     <li><a href="https://nodejs.org/" alt="Node.js">Node.js</a></li>
-    <li><a href="https://expressjs.com/" alt="Sequelize">Express</a></li>
+    <li><a href="https://sequelize.org/" alt="Sequelize">Sequelize</a></li>
     <li><a href="https://www.sqlite.org/" alt="MySQL">SQLite</a></li>
 </ul>
 
